@@ -3,6 +3,8 @@ CORD-19 Data Explorer
 
 This is a simple Streamlit app that allows users to explore the CORD-19 COVID-19 research dataset. The app provides interactive data visualizations, allowing users to filter and explore trends in COVID-19 research papers over time.
 
+**Note**: The dataset used in this app has been truncated to only **1,000 rows** due to the large size of the original file (approximately **1.5GB**). This was done to make the app more manageable while still providing valuable insights.
+
 ## Features
 
 * **Interactive Year Range Slider**: Allows users to select a year range to filter the dataset.
@@ -49,12 +51,14 @@ Installation and Setup
 
 * Extract the dataset and locate the `metadata.csv` file.
 
+* **Note**: Due to the large file size (~1.5GB), this app uses a truncated version of the dataset, containing only **1,000 rows**. You can create a truncated version of the dataset by sampling 1,000 rows or using any relevant subset of the data for faster performance.
+
 ### 2. Clone or Download This Repository
 
 Clone the repository or download the project folder to your local machine.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/edmondweb/Frameworks_Assignment.git
 ```
 
 ### 3. Place the Dataset
